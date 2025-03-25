@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Supervised Pixel-Based Land Cover Classification
+description: performing a land cover classification for Saginaw Woods using remote sensing and field data
+img: assets/img/sagwoods_lc.jpg
 importance: 3
-category: fun
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

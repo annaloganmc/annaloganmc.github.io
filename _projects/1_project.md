@@ -2,80 +2,56 @@
 layout: page
 title: Ashleyville Salt Marsh Restoration
 description: Semi-automated tidal creek parameter extraction algorithm
-img: assets/img/12.jpg
+img: assets/img/av.jpg
 importance: 1
 category: work
 related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This work was conducted as part of a larger project led by the South Carolina Department of Natural Resources to restore 7 acres of salt marsh in the Ashleyville area of Charleston, South Carolina. During my internship with Robinson Design Engineers, I utilized a semi-automated tidal creek extraction algorithm to calculate quantitative parameters about the restoration site and reference tidal creek systems to guide the project design. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/otc_ws.jpg" title="Old Town Creek Watershed" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Extent of the Old Town Creek tidal watershed within Charleston, South Carolina.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The restoration site is located in the Maryville region: one of the most historically prominent African American towns seen as a model of Black self-government. Ashleyville is the area of Maryville that is closest to the Ashley River. The community was established by former slaves and their descendants to establish property and businesses in the Jim Crow-era South.
+
+The project came about from a citizen science program where community members were encouraged to document changes in sea level and pollution in the marshes of Charleston. Through this initiative, one of the residents of Maryville brought attention to the marsh die-off occuring in his backyard. From their, the community rallied collaborators to tackle the restoration of this degraded marsh.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/av_opl.jpg" title="Ashleyville OPL" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Overmarsh path length (OPL) algorithm output for the Ashleyville restoration site.
+</div>
+
+For this phase of the project, I was tasked with finding metrics that could be calculated for the restoration site and various tidal creek reference systems to help guide the restoration strategy. 
+
+One of these metrics is overmarsh path length (OPL), which represents the distance a particle of water on the marsh platform travels before reaching a channel. The lower the mean OPL, the better irrigated the site is by a dense and well-distributed creek system. Marshes with more efficient tidal channel networks have lower mean OPL.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/otc_creekorder.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/otc_ndvi.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Examples of some of the parameters calculated for the Old Towne Creek tidal creek system.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The creek extraction algorithm I used has the capability of extracting a comprehensive suite of morphological creek characteristics in both mature and created salt marshes using only LiDAR data. By using slope and elevation thresholds to determine the creek area, the algorithm calculates amplitude, channel length, sinuosity ratio, junction angle, width, depth, cross-sectional area, creek order, bifurcation ratio, drainage density, and overmarsh path length. The results were found to closely match field-validated results, and were significantly faster and less subjective to produce. 
 
-{% raw %}
+To monitor salt marsh vegetation health, a critical factor in determining the extent of marsh die-back, the Normalized Difference Vegetation Index (NDVI) can be utilized. NDVI quantifies the greenness of an area using remote sensing imagery with red and near-infrared bands and has a well-established relationship with vegetation productivity.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+Salt marshes are often difficult to access for field surveys due to the thick mud and constantly changing water levels from the tides. Therefore, these remote sensing methods have great potential for cost-effective long-term monitoring of creek morphological evolution and vegetation health in both mature and managed salt marshes.
 
-{% endraw %}

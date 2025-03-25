@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: South Carolina Nature-Based Solutions Database
+description: development of a nature-based solutions knowledge base for long-term performance monitoring in South Carolina
 img: assets/img/3.jpg
 importance: 2
 category: work
