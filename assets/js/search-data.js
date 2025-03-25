@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
+  },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of my projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
@@ -389,24 +396,24 @@ ninja.data = [{
           description: "Semi-automated tidal creek parameter extraction algorithm",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-south-carolina-nature-based-solutions-database",
+          title: 'South Carolina Nature-Based Solutions Database',
+          description: "development of a nature-based solutions knowledge base for long-term performance monitoring in South Carolina",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-assessing-vulnerability-to-pfas-contamination-in-michigan",
+          title: 'Assessing Vulnerability to PFAS Contamination in Michigan',
+          description: "a clustering and spatial regression analysis of PFAS contamination across Michigan",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-supervised-pixel-based-land-cover-classification",
+          title: 'Supervised Pixel-Based Land Cover Classification',
+          description: "performing a land cover classification for Saginaw Woods using remote sensing and field data",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-electrifying-and-decarbonizing-the-uofm-bus-fleet",
+          title: 'Electrifying and Decarbonizing the UofM Bus Fleet',
+          description: "a multi-criteria decision analysis tool to determine the optimal mix of electric, hybrid, and diesel buses to achieve net carbon goals",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
