@@ -52,11 +52,11 @@
       "General and Departmental Honors"]
     }
   ], 
-  "academic experience": [
+  "projects": [
     {
-      "organization": "Development of a nature-based solutions (NBS) database in South Carolina",
+      "title": "Development of a nature-based solutions (NBS) database in South Carolina",
       "location": "University of Michigan - Ann Arbor",
-      "position": "National Science Foundation Graduate Research Fellowship",
+      "project": "National Science Foundation Graduate Research Fellowship",
       "url": "https://storymaps.arcgis.com/stories/5268240f457b4571a4106d87ed9f2030",
       "startDate": "2023-08-01",
       "endDate": "",
@@ -66,9 +66,9 @@
       "Analyzing how the spatial distribution of NBS sites correlates with the hydrologic connectivity, landscape diversity, and carbon storage potential of their watersheds"]
     },
     {
-      "organization": "Resilient stormwater management design for Mexico Beach, Florida",
+      "title": "Resilient stormwater management design for Mexico Beach, Florida",
       "location": "Clemson University",
-      "position": "Senior Design Capstone Project",
+      "project": "Senior Design Capstone Project",
       "url": "",
       "startDate": "2022-08-01",
       "endDate": "2022-12-01",
@@ -77,9 +77,9 @@
       "Developed visual renderings of our design for a town affected by extreme coastal flooding"]
     },
     {
-      "organization": "Environment Sustainability and Geographic Information Systems (GIS)",
+      "title": "Environment Sustainability and Geographic Information Systems (GIS)",
       "location": "Clemson University",
-      "position": "Study Abroad Program",
+      "project": "Study Abroad Program",
       "url": "",
       "startDate": "2022-06-01",
       "endDate": "2022-08-01",
@@ -88,7 +88,7 @@
       "Enhanced Spanish language skills through immersion in a town with few English speakers"]
     }
   ],  
-  "professional experience": [
+  "work": [
     {
       "name": "Robinson Design Engineers, Charleston, SC",
       "position": "Geospatial Intern",
