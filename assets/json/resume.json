@@ -54,38 +54,32 @@
   ], 
   "projects": [
     {
-      "title": "Development of a nature-based solutions (NBS) database in South Carolina",
-      "location": "University of Michigan - Ann Arbor",
-      "project": "National Science Foundation Graduate Research Fellowship",
-      "url": "https://storymaps.arcgis.com/stories/5268240f457b4571a4106d87ed9f2030",
-      "startDate": "2023-08-01",
-      "endDate": "",
-      "summary": "",
+      "name": "Development of a nature-based solutions (NBS) database in South Carolina",
+      "summary": "National Science Foundation Graduate Research Fellowship",
       "highlights": ["Created database of 190+ NBS case studies throughout the entire state to store information about their location, scale, benefits aimed to achieve, cost, funding sources, permit/maintenance information, and challenges faced",
       "Produced ArcGIS storymap to make information publicly accessible to SC practitioners and residents who are interested in implementing NBS in their communities",
-      "Analyzing how the spatial distribution of NBS sites correlates with the hydrologic connectivity, landscape diversity, and carbon storage potential of their watersheds"]
+      "Analyzing how the spatial distribution of NBS sites correlates with the hydrologic connectivity, landscape diversity, and carbon storage potential of their watersheds"],
+      "startDate": "2023-08-01",
+      "endDate": "",
+      "url": "https://storymaps.arcgis.com/stories/5268240f457b4571a4106d87ed9f2030"
     },
     {
-      "title": "Resilient stormwater management design for Mexico Beach, Florida",
-      "location": "Clemson University",
-      "project": "Senior Design Capstone Project",
-      "url": "",
+      "name": "Resilient stormwater management design for Mexico Beach, Florida",
+      "summary": "Clemson Senior Design Capstone Project",
+      "highlights": ["Calculated hydrologic parameters and developed hydraulic design for a wet detention pond",
+      "Developed visual renderings of our design for a town affected by extreme coastal flooding"],
       "startDate": "2022-08-01",
       "endDate": "2022-12-01",
-      "summary": "",
-      "highlights": ["Calculated hydrologic parameters and developed hydraulic design for a wet detention pond",
-      "Developed visual renderings of our design for a town affected by extreme coastal flooding"]
+      "url": ""
     },
     {
-      "title": "Environment Sustainability and Geographic Information Systems (GIS)",
-      "location": "Clemson University",
-      "project": "Study Abroad Program",
-      "url": "",
+      "name": "Environment Sustainability and Geographic Information Systems (GIS)",
+      "summary": "Clemson Study Abroad Program",
+      "highlights": ["Studied aspects of sustainability in Pamplona, Spain using life cycle assessments (LCA) and GIS",
+      "Enhanced Spanish language skills through immersion in a town with few English speakers"],
       "startDate": "2022-06-01",
       "endDate": "2022-08-01",
-      "summary": "",
-      "highlights": ["Studied aspects of sustainability in Pamplona, Spain using life cycle assessments (LCA) and GIS",
-      "Enhanced Spanish language skills through immersion in a town with few English speakers"]
+      "url": ""
     }
   ],  
   "work": [
