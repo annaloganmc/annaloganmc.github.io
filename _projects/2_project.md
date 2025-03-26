@@ -14,7 +14,7 @@ There is a critical need for an improved evidence base, informed by scientific, 
 
 To help amend this gap, I constructed a database of NBS specific to South Carolina (SC), the state where I am from. Local practitioners in SC have recently been gaining interest in the application of NBS to address issues that commonly impact SC communities such as flooding, poor water quality, and biodiversity loss. This can be seen through programs like the <a href = "https://www.naturebasedexchange.org/">Nature-Based Exchange (NBE):</a> a collaborative effort started in 2022 to connect an array of SC experts from a variety of disciplines related to NBS through a series of workshops. These workshops aimed to close the gap between conceptual ideas and practical plans for NBS in SC by synthesizing existing knowledge, aligning it with opportunities and barriers within the state, and creating practical and equitable steps for implementation. One of the barriers identified to NBS implementation was the “absence of a central database” which would improve education and public attitudes towards these solutions. Since there are currently zero NBS case studies from SC in any of the major global NBS databases, this further adds to the need for the creation of a NBS database for the state.
 
-<div class="row">
+<div class="row justify-content-center text-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/scnbs_types.png" title="example image" class="img-fluid rounded z-depth-1 w-75" %}
     </div>
@@ -23,7 +23,7 @@ To help amend this gap, I constructed a database of NBS specific to South Caroli
     The distribution of types of NBS in the database. 
 </div>
 
-<div class="row">
+<div class="row justify-content-center text-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/scnbs_benefits.png" title="example image" class="img-fluid rounded z-depth-1 w-75" %}
     </div>

@@ -15,7 +15,7 @@ PFAS, as known as per- and polyfluoroalkyl substances, is a dangerous pollutant 
 The State of Michigan has become a national leader in PFAS monitoring and the Michigan PFAS Action Response Team (MPART) provides this data to the public. Although recent regulations have reduced the presence of certain PFAS, regulations have mostly focused on longer chain PFAS and shorter chain PFAS continue to present a danger, as they are more easily leached.
 
 
-<div class="row">
+<div class="row justify-content-center text-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/pfas_cluster.jpg" title="example image" class="img-fluid rounded z-depth-1 w-25" %}
     </div>

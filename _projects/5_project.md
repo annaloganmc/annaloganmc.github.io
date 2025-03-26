@@ -11,9 +11,9 @@ For my Environmental Systems Analysis class, we were tasked with coming up with 
 
 The UM Campus 2050 Plan states that the university aims to reach carbon neutrality by 2040. One significant contributor to campus emissions is the UM fleet of buses, which currently consists of 4 electric buses, 27 hybrid, and 29 diesel buses and emits an estimated 3 million kg CO2 eq/year. UM would need to reduce emissions by 33% over the next five years to be on track for its 2040 carbon neutrality goal.
 
-<div class="row">
+<div class="row justify-content-center text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcda_system.jpg" title="example image" class="img-fluid rounded z-depth-1 w-25" %}
+        {% include figure.liquid loading="eager" path="assets/img/mcda_system.jpg" title="example image" class="img-fluid rounded z-depth-1 w-50" %}
     </div>
 </div>
 <div class="caption">
@@ -22,7 +22,7 @@ The UM Campus 2050 Plan states that the university aims to reach carbon neutrali
 
 We developed systems of equations to minimize emissions that takes into account the number of buses required to sufficiently serve existing bus routes, the current distribution of electric/hybrid/diesel buses, and the purchase and selling price of each type of bus. While the primary objective was to minimize emissions, we also had a secondary objective of minimizing cost.<p>For more information on problem setup and our methods, you can view the full report here: <a href="/assets/pdf/systems_final_report.pdf" target="_blank">Final Report (PDF)</a>.</p>
 
-<div class="row">
+<div class="row justify-content-center text-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/mcda_pareto.jpeg" title="example image" class="img-fluid rounded z-depth-1 w-50" %}
     </div>

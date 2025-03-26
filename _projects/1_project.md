@@ -11,8 +11,8 @@ related_publications: false
 This work was conducted as part of a larger project led by the South Carolina Department of Natural Resources to restore 7 acres of salt marsh in the Ashleyville area of Charleston, South Carolina. During my internship with Robinson Design Engineers, I utilized a semi-automated tidal creek extraction algorithm to calculate quantitative parameters about the restoration site and reference tidal creek systems to guide the project design. 
 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/otc_ws.jpg" title="Old Town Creek Watershed" class="img-fluid rounded z-depth-1 w-50" %}
     </div>
 </div>
@@ -25,8 +25,8 @@ The restoration site is located in the Maryville region: one of the most histori
 The project came about from a citizen science program where community members were encouraged to document changes in sea level and pollution in the marshes of Charleston. Through this initiative, one of the residents of Maryville brought attention to the marsh die-off occuring in his backyard. From their, the community rallied collaborators to tackle the restoration of this degraded marsh.
 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/otc_ndvi.jpg" title="OTC NDVI" class="img-fluid rounded z-depth-1 w-50" %}
     </div>
 </div>
@@ -39,7 +39,7 @@ For this phase of the project, I was tasked with finding metrics that could be c
 To monitor salt marsh vegetation health, a critical factor in determining the extent of marsh die-back, the Normalized Difference Vegetation Index (NDVI) can be utilized. NDVI quantifies the greenness of an area using remote sensing imagery with red and near-infrared bands and has a well-established relationship with vegetation productivity. To establish initial vegetation conditions for the watershed, I calculated the median NDVI from Sentinel-2 images over a 2-year period using Google Earth Engine.
 
 
-<div class="row justify-content-sm-center">
+<div class="row justify-content-center text-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/otc_creekorder.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>

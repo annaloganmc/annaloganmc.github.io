@@ -11,9 +11,9 @@ As part of my field remote sensing course, I learned how to perform a supervised
 
 Based off the collected field data and 2022 NAIP imagery for the study area, I created training sample polygons that represented each level 1 land use land cover code. Using the Image Classification Wizard in ArcGIS Pro, I created a classification schema and ran a Random Trees classifier that produced a pixel-based land cover classification map.
 
-<div class="row">
+<div class="row justify-content-center text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sagwoods_plygn.jpeg" title="example image" class="img-fluid rounded z-depth-1 w-25" %}
+        {% include figure.liquid loading="eager" path="assets/img/sagwoods_plygn.jpeg" title="example image" class="img-fluid rounded z-depth-1 w-50" %}
     </div>
 </div>
 <div class="caption">
@@ -22,9 +22,9 @@ Based off the collected field data and 2022 NAIP imagery for the study area, I c
 
 To assess the accuracy of the classification, I used a confusion matrix. The method resulted in a user accuracy of 92% and a producer accuracy of 88%. For improved classification, I would collect better validation and sampling points.
 
-<div class="row">
+<div class="row justify-content-center text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sagwoods_lc.jpeg" title="example image" class="img-fluid rounded z-depth-1 w-25" %}
+        {% include figure.liquid loading="eager" path="assets/img/sagwoods_lc.jpeg" title="example image" class="img-fluid rounded z-depth-1 w-50" %}
     </div>
 </div>
 <div class="caption">

@@ -23,3 +23,14 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+.profile-image {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) { /* Target devices with a width of 768px or smaller */
+  .profile-image {
+      max-width: 150px; /* Adjust the size for smaller screens */
+  }
+}
