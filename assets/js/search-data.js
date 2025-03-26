@@ -387,6 +387,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/charleston/";
+            },},{id: "books-the-overstory",
+          title: 'The Overstory',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/overstory/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -400,12 +405,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-ashleyville-salt-marsh-restoration",
           title: 'Ashleyville Salt Marsh Restoration',
-          description: "Semi-automated tidal creek parameter extraction algorithm",
+          description: "Semi-automated tidal creek parameter extraction algorithm.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-south-carolina-nature-based-solutions-database",
           title: 'South Carolina Nature-Based Solutions Database',
-          description: "development of a nature-based solutions knowledge base for long-term performance monitoring in South Carolina",
+          description: "Development of a nature-based solutions knowledge base for long-term performance monitoring in South Carolina.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-assessing-vulnerability-to-pfas-contamination-in-michigan",
