@@ -1,7 +1,7 @@
 ---
 layout: page
 title: South Carolina Nature-Based Solutions Database
-description: development of a nature-based solutions knowledge base for long-term performance monitoring in South Carolina
+description: Development of a nature-based solutions knowledge base for long-term performance monitoring in South Carolina.
 img: assets/img/sc_nbs_db.jpg
 importance: 1
 category: work
@@ -16,39 +16,25 @@ To begin amending this gap, I constructed a database of NBS specific to South Ca
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/scnbs_types.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/scnbs_benefits.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    The distribution of types of NBS in the database and the benefits they aimed to achieve. While there may be other co-benefits not documented here, I only included benefits that the project documentation explicitly stated it aimed to achieve.
 </div>
 
 I collected information about NBS in SC from a vast array of sources, including but not limited to publications, watershed plans, reports, company websites, citizen science survey inputs, design manuals, low impact development databases, and mitigation banking databases. I established database requirements in conjunction with The Nature Conservancy to determine which attributes of NBS are most important to collect. The refined attributes include type(s) of NBS in the project, benefit(s) aimed to achieve by the project, approximate start and end date of construction, full list of project partners, scale, latitude/longitude, source of project, type of source, date of source, cost, type of funding source, specific name of funding source, permit and maintenance information, challenges faced, and a short description of the project. 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/scnbs_overtime.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The number of NBS in SC over time, determined by the start date of their implementation.
 </div>
 
 To convey the findings of my database and make the data more accessible to SC practitioners and residents, I created a <a href = "https://storymaps.arcgis.com/stories/5268240f457b4571a4106d87ed9f2030">public ArcGIS Storymap</a> with highlighted case studies and interactive data dashboards. Since publication of the storymap in August 2024, it has already been shared widely by the Nature-Based Exchange, used as an assignment to explore NBS sites for a graduate level marine science course, and been utilized in the planning for the Salkehatchie River Basin by the SC Resilient Coastal Communities Collaborative Program.

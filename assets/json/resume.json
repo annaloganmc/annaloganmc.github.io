@@ -128,6 +128,13 @@
   ],
   "awards": [
     {
+      "title": "ESRI Innovation Program Student of the Year",
+      "date": "2025-03-25",
+      "awarder": "University of Michigan",
+      "url": "https://www.esri.com/en-us/lg/industry/education/stories/esri-eip-winners-demonstrate-geospatial-excellence",
+      "summary": "Each year, universities that are members of the Esri Innovation Program (EIP) nominate a Student of the Year who used Esri’s geospatial technology in an innovative way. EIP universities advance geospatial education by teaching the latest technology supported by ArcGIS software, promoting GIS research, and fostering institutional cross collaboration."
+    },
+    {
       "title": "National Science Foundation Graduate Research Fellowship",
       "date": "2023-05-01",
       "awarder": "National Science Foundation",

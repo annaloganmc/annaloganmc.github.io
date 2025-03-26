@@ -8,74 +8,37 @@ importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+For my Environmental Spatial Analysis course, we were tasked with coming up with a research question that utilizes some of the spatial statistical methods taught during the semester. For our project, we decided to analyze the distribution of PFAS contamination across the state of Michigan to determine where clusters of contamination may exist and which populations may be more at risk of exposure.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+PFAS, as known as per- and polyfluoroalkyl substances, is a dangerous pollutant that has contaminated Michigan’s environment. Sources of PFAS are abundant, often from industrial processes and products. PFAS and its products tend to be highly resistant to environmental degradation and can leach through the hydrologic system to spread contamination. These chemicals tend to bioaccumulate through ingestion and therefore present a danger to both people and the ecosystem through water and food chains.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The State of Michigan has become a national leader in PFAS monitoring and the Michigan PFAS Action Response Team (MPART) provides this data to the public. Although recent regulations have reduced the presence of certain PFAS, regulations have mostly focused on longer chain PFAS and shorter chain PFAS continue to present a danger, as they are more easily leached.
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/pfas_cluster.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Results of the LISA analysis. High-high areas represent counties that are in a region with high PFAS contamination, and have significantly higher PFAS than their neighboring counties.
 </div>
+
+To answer our research questions, our first task was to perform a local indicator of spatial autocorrelation (LISA) analysis with a first-order queen contiguity to determine if there is a cluster of counties that have greater risk of PFAS contamination than their neighborhoring counties. Two types of PFAS-related variables were chosen and attributed to the counties: number of known sites of PFAS contamination and surface water measurements tested for PFAS concentrations. The first-order queen contiguity accounts for interactions of counties that share only a point, not a border, and ensures each county has at least one interaction.
+
+The results of the LISA analysis showed the same clustering pattern for both variables. The counties of Monroe, Wayne, Macomb, and Lapeer, which largely overlap the Detroit metropolitan area, have the largest amount of PFAS contamination relative to their neighboring counties.
+
+The cluster of major PFAS contamination in southeast Michigan can likely be explained with the region’s history and hydrology. Southeastern Michigan was a mecca of industry in the twentieth century, especially for automobiles, and experienced immense population growth. In recent decades, the region has economically stagnated but continues to deal with the effects of the industrial boom. The PFAS contamination may be due to the history of industry and accumulation of historic waste in landfills. Furthermore, the only Michigan counties whose watersheds flow into Lake Erie are within this contaminated cluster. The PFAS could have originated inland and leached southeast towards Lake Erie, gradually accumulating in the water table and organisms while resisting degradation.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/pfas_poster.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Poster created for the final project presentation in Environmental Spatial Data Analysis.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Finally, we ran a spatial regression analysis using Census block data within the cluster of counties. Independent variables explored included unemployment rate, poverty rate, age 65+, people without health insurance, black population, and median income. These variables were chosen because they may represent potentially vulnerable populations. After using an adjusted error model to account for spatial autocorrelation, the results showed negative correlation between PFAS concentration and two variables: people without health insurance and median income. 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Higher PFAS concentrations are more likely to be found in lower income areas, which suggests there may be some income inequalities in exposed populations. This result matches our hypothesis that vulnerable populations (e.g. lower income) are more at risk of exposure. Interestingly though, higher PFAS concentrations are also more likely to be found near populations with higher ratios of health insurance. This suggests that these populations are able to be treated for adverse health effects that may result from PFAS.

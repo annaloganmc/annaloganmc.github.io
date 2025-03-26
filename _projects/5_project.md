@@ -7,74 +7,30 @@ importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+For my Environmental Systems Analysis class, we were tasked with coming up with an example of a Multi-Criteria Decision Analysis (MCDA) tool that could be used to guide decision-making for an environmental issue of interest. We decided to use the electrification of the University of Michigan (UM) bus fleet as our example.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The UM Campus 2050 Plan states that the university aims to reach carbon neutrality by 2040. One significant contributor to campus emissions is the UM fleet of buses, which currently consists of 4 electric buses, 27 hybrid, and 29 diesel buses and emits an estimated 3 million kg CO2 eq/year. UM would need to reduce emissions by 33% over the next five years to be on track for its 2040 carbon neutrality goal.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mcda_system.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The systems of equations used for our MCDA tool.
 </div>
+
+We developed systems of equations to minimize emissions that takes into account the number of buses required to sufficiently serve existing bus routes, the current distribution of electric/hybrid/diesel buses, and the purchase and selling price of each type of bus. While the primary objective was to minimize emissions, we also had a secondary objective of minimizing cost. A full list of our methods can be found in the Final Report PDF.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mcda_pareto.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    The resulting Pareto frontier of decision-making from our MCDA tool. The red point represents the solution that minimizes cost while reducing emissions by 33% by 2030.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+We determined the endpoints of feasible decision space by solving for each objective separately: lowest possible cost and lowest possible emissions. We plotted a range potential decisions between these two extremes to understand the tradeoffs between each choice. By evaluating the set of non-inferior solutions that minimize both cost and emissions, we are able to present UM with options for decarbonizing their bus fleet along a spectrum with either plan at the extremes. The most likely decision to be made is the cheapest option that meets the Campus Plan 2050 goal of reducing emissions 33% over 5 years. This would result in an optimal fleet of 28 electric buses, 29 hybrid buses, and 3 diesel buses. 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Future work could factor in the timing in which the buses are purchased and sold, the fuel costs associated with each option, and the emissions impacts of an increasingly renewable electricity supply to provide UM with a more comprehensive assessment of bus fleet decarbonization options.
