@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Assessing Vulnerability to PFAS Contamination in Michigan
-description: a clustering and spatial regression analysis of PFAS contamination across Michigan
+description: A clustering and spatial regression analysis of PFAS contamination across the state of Michigan.
 img: assets/img/pfas_cluster.jpg
 redirect: 
 importance: 3
@@ -17,7 +17,7 @@ The State of Michigan has become a national leader in PFAS monitoring and the Mi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/pfas_cluster.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/pfas_cluster.jpg" title="example image" class="img-fluid rounded z-depth-1 w-25" %}
     </div>
 </div>
 <div class="caption">

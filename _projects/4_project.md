@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Supervised Pixel-Based Land Cover Classification
-description: performing a land cover classification for Saginaw Woods using remote sensing and field data
-img: assets/img/sagwoods_plygn.jpg
+description: Performing a land cover classification for Saginaw Woods using remote sensing imagery and field data.
+img: assets/img/sagwoods_plygn.jpeg
 importance: 3
 category: work
 ---
@@ -13,7 +13,7 @@ Based off the collected field data and 2022 NAIP imagery for the study area, I c
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sagwoods_plygn.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/sagwoods_plygn.jpeg" title="example image" class="img-fluid rounded z-depth-1 w-25" %}
     </div>
 </div>
 <div class="caption">
@@ -24,7 +24,7 @@ To assess the accuracy of the classification, I used a confusion matrix. The met
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sagwoods_lc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/sagwoods_lc.jpeg" title="example image" class="img-fluid rounded z-depth-1 w-25" %}
     </div>
 </div>
 <div class="caption">

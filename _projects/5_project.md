@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Electrifying and Decarbonizing the UofM Bus Fleet
-description: a multi-criteria decision analysis tool to determine the optimal mix of electric, hybrid, and diesel buses to achieve net carbon goals
+description: Creating a multi-criteria decision analysis tool to determine the optimal mix of electric, hybrid, and diesel buses to achieve net carbon goals.
 img: assets/img/mcda_bus.jpg
 importance: 3
 category: work
@@ -13,18 +13,18 @@ The UM Campus 2050 Plan states that the university aims to reach carbon neutrali
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcda_system.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mcda_system.jpg" title="example image" class="img-fluid rounded z-depth-1 w-25" %}
     </div>
 </div>
 <div class="caption">
     The systems of equations used for our MCDA tool.
 </div>
 
-We developed systems of equations to minimize emissions that takes into account the number of buses required to sufficiently serve existing bus routes, the current distribution of electric/hybrid/diesel buses, and the purchase and selling price of each type of bus. While the primary objective was to minimize emissions, we also had a secondary objective of minimizing cost. A full list of our methods can be found in the Final Report PDF.
+We developed systems of equations to minimize emissions that takes into account the number of buses required to sufficiently serve existing bus routes, the current distribution of electric/hybrid/diesel buses, and the purchase and selling price of each type of bus. While the primary objective was to minimize emissions, we also had a secondary objective of minimizing cost.<p>For more information on problem setup and our methods, you can view the full report here: <a href="/assets/pdf/systems_final_report.pdf" target="_blank">Final Report (PDF)</a>.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mcda_pareto.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mcda_pareto.jpeg" title="example image" class="img-fluid rounded z-depth-1 w-50" %}
     </div>
 </div>
 <div class="caption">

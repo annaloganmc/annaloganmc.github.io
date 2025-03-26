@@ -1,80 +1,23 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: Bioretention Animation
+description: A short animation I created to depict the workings of a bioretention cell with an underdrain. 
 img:
 importance: 4
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+As an engineer, a common challenge I encounter is how to best convey technical information to an audience without experience or knowledge on the topic. One method I have found particularly helpful is the use of art and graphics to visualize scientific concepts. In my spare time, I am an avid painter and artist, so any time I get the chance to combine these two worlds I take it!
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This is one example that demonstrates how I overlap my work as an engineer and an artist. During my first internship with Robinson Design Engineers (RDE), I was tasked with figuring out how to best convey information about how various stormwater control devices work to a homeowner's association. The lake within their neighborhood had been facing water quality issues due to erosion caused by runoff from the surrounding impervious surfaces (e.g. roads, driveways). To combat this, RDE came up with a series of small-scale nature-based solutions distributed throughout the neighborhood to slow and infiltrate water, prevent downstream erosion, and restore the water quality of the lake. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+However, the HOA had concerns about how these nature-based designs work. I decided to tackle this problem with a visual element by creating an animation that depicts the function of a bioretention basin. The animation shows how the device traps sediment in the forebay, provides an aesthetically pleasing habitat for pollinators, and can handle stormwater flows through the use of its underdrain system. The animation was well received by the HOA and helped enhance their understanding of what was being implemented within their community.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
+<div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img src="/assets/img/bioretention.gif" alt="Bioretention Animation" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    An animation of a bioretention basin with an underdrain showing its functionality.
 </div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
