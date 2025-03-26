@@ -415,22 +415,22 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-assessing-vulnerability-to-pfas-contamination-in-michigan",
           title: 'Assessing Vulnerability to PFAS Contamination in Michigan',
-          description: "a clustering and spatial regression analysis of PFAS contamination across Michigan",
+          description: "A clustering and spatial regression analysis of PFAS contamination across the state of Michigan.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-supervised-pixel-based-land-cover-classification",
           title: 'Supervised Pixel-Based Land Cover Classification',
-          description: "performing a land cover classification for Saginaw Woods using remote sensing and field data",
+          description: "Performing a land cover classification for Saginaw Woods using remote sensing imagery and field data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-electrifying-and-decarbonizing-the-uofm-bus-fleet",
           title: 'Electrifying and Decarbonizing the UofM Bus Fleet',
-          description: "a multi-criteria decision analysis tool to determine the optimal mix of electric, hybrid, and diesel buses to achieve net carbon goals",
+          description: "Creating a multi-criteria decision analysis tool to determine the optimal mix of electric, hybrid, and diesel buses to achieve net carbon goals.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-bioretention-animation",
+          title: 'Bioretention Animation',
+          description: "A short animation I created to depict the workings of a bioretention cell with an underdrain.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{
