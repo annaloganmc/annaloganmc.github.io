@@ -3,7 +3,7 @@ layout: page
 title: Ashleyville Salt Marsh Restoration
 description: Semi-automated tidal creek parameter extraction algorithm
 img: assets/img/av.jpg
-importance: 1
+importance: 2
 category: work
 related_publications: false
 ---
