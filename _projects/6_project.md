@@ -2,7 +2,7 @@
 layout: page
 title: Bioretention Animation
 description: A short animation I created to depict the workings of a bioretention cell with an underdrain. 
-img:
+img: assets/img/bioretention.jpg
 importance: 4
 category: fun
 ---

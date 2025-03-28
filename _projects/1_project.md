@@ -5,10 +5,10 @@ description: Semi-automated tidal creek parameter extraction algorithm.
 img: assets/img/av.jpg
 importance: 2
 category: work
-related_publications: false
+related_publications: true
 ---
 
-This work was conducted as part of a larger project led by the South Carolina Department of Natural Resources to restore 7 acres of salt marsh in the Ashleyville area of Charleston, South Carolina. During my internship with Robinson Design Engineers, I utilized a semi-automated tidal creek extraction algorithm to calculate quantitative parameters about the restoration site and reference tidal creek systems to guide the project design. 
+This work was conducted as part of a larger project led by the South Carolina Department of Natural Resources to restore 7 acres of salt marsh in the Ashleyville area of Charleston, South Carolina. During my internship with Robinson Design Engineers, I utilized a semi-automated tidal creek extraction algorithm developed by {% cite chirolalg %} to calculate quantitative parameters about the restoration site and reference tidal creek systems to guide the project design. 
 
 
 <div class="row justify-content-center">
@@ -36,7 +36,7 @@ The project came about from a citizen science program where community members we
 
 For this phase of the project, I was tasked with finding metrics that could be calculated for the restoration site and various tidal creek reference systems to guide the restoration strategy and establish long-term monitoring methods. 
 
-To monitor salt marsh vegetation health, a critical factor in determining the extent of marsh die-back, the Normalized Difference Vegetation Index (NDVI) can be utilized. NDVI quantifies the greenness of an area using remote sensing imagery with red and near-infrared bands and has a well-established relationship with vegetation productivity. To establish initial vegetation conditions for the watershed, I calculated the median NDVI from Sentinel-2 images over a 2-year period using Google Earth Engine.
+To monitor salt marsh vegetation health, a critical factor in determining the extent of marsh die-back, the Normalized Difference Vegetation Index (NDVI) can be utilized. NDVI quantifies the greenness of an area using remote sensing imagery with red and near-infrared bands and has a well-established relationship with vegetation productivity ({% cite milleretal2017 %}, {% cite rolandoetal2023 %}, {% cite sunetal2018%}). To establish initial vegetation conditions for the watershed, I calculated the median NDVI from Sentinel-2 images over a 2-year period using Google Earth Engine.
 
 
 <div class="row justify-content-center text-center">
