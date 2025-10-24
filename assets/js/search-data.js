@@ -30,11 +30,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-charleston-race-water-and-the-coming-storm",
+        },{id: "books-american-war",
+          title: 'American War',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/americanwar/";
+            },},{id: "books-charleston-race-water-and-the-coming-storm",
           title: 'Charleston: Race, Water, and the Coming Storm',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/charleston/";
+            },},{id: "books-the-covenant-of-water",
+          title: 'The Covenant of Water',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/covenantofwater/";
             },},{id: "books-the-overstory",
           title: 'The Overstory',
           description: "",
