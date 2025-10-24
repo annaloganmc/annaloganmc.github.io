@@ -61,9 +61,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-ashleyville-salt-marsh-restoration",
-          title: 'Ashleyville Salt Marsh Restoration',
-          description: "Semi-automated tidal creek parameter extraction algorithm.",
+          section: "News",},{id: "projects-semi-automated-tidal-creek-parameter-extraction-algorithm",
+          title: 'Semi-automated Tidal Creek Parameter Extraction Algorithm',
+          description: "Using a semi-automated algorithm to extract relevant parameters from LiDAR data for salt marsh restoration in the historic Ashleyville area of Charleston, SC.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-south-carolina-nature-based-solutions-database",
