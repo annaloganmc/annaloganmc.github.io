@@ -9,7 +9,7 @@ categories: nonfiction
 tags: top-100
 buy_link: https://www.amazon.com/Charleston-Race-Water-Coming-Storm/dp/1639363572
 started: 2025-03-02
-finished: 20245-03-03
+finished: 2025-03-03
 released: 2023
 stars: 4
 status: Finished
