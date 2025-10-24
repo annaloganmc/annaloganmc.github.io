@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Ashleyville Salt Marsh Restoration
-description: Semi-automated tidal creek parameter extraction algorithm.
+title: Semi-automated Tidal Creek Parameter Extraction Algorithm
+description: Using a semi-automated algorithm to extract relevant parameters from LiDAR data for salt marsh restoration in the historic Ashleyville area of Charleston, SC.
 img: assets/img/av.jpg
 importance: 2
 category: work
